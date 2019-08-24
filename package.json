@@ -1,0 +1,20 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "Simple starter template for creating express.js based backends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joachim.schirrmacher@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-winston": "^3.3.0",
+    "mustache": "^3.0.2",
+    "winston": "^3.2.1"
+  }
+}
